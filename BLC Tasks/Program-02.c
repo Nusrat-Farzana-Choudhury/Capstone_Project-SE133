@@ -3,7 +3,6 @@
 Sec-B*/
 
 /*A number guessing game is a simple guessing game where a user is supposed to guess a number between 0 and N.
-
 Write a C program that will generate a random number between 0-500. And take the guess as input from user. Give a user hint if his/her guess is lower or upper than the generated number. If the guess and the generated number matches declare the user as winner. The game will end after 10 attempts.*/
 
 #include <stdio.h>
@@ -24,7 +23,11 @@ int main()
        scanf("\t\t%d",&guess);
        
        if(guess==number)
-       printf("\t\tWinner! :D\n");
+       {
+           printf("\t\tWinner! :D\n");
+           break;
+       }
+       
        
        else if((guess<number) && n!=10)
        printf("\t\tGuess higjher!\n");

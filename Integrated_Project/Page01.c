@@ -13,7 +13,8 @@ int main(){
 	 printf("----------Contact Us----------\n");
 	 printf("Address-\n18/A, Prantik Road,\nCharabagh, Ashuliya,\nDhaka.\n\nPhone number-\n\t~ +88 01423272703\n\t~ +02 436183543\n\nE-mail:\nlostkitchensupport@gmail.com\n\n");
 	
-	/*int opt_1; 
+	/*the part below can be assigned in a func named back_exit()
+	  int opt_1; 
 	  printf("Press 1 to back to homepage or 0 to exit"); 
 	  scanf("%d",&opt_1);
 	 if (opt_1==1)

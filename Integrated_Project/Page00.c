@@ -5,7 +5,7 @@ int main(){
 	printf("\t\t\t\t\t\t\t\t\t\t\t-Where every flavor tells a story\n\n\n");
 	
 	printf("1. About us\n");
-	printf("2. User guidelines\n");
+	printf("2. User guides\n");
 	printf("3. Authentication system\n");
 	printf("4. Order now!\n");
 	printf("5. Hot deals!!!\n");

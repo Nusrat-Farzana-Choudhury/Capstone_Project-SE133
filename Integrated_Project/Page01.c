@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
 	
-	 printf("\n\n\t\t\t\t\t\t\t\t\t\t\t---------------------About Us---------------------\n\n");
+	 printf("\n\n\t\t\t\t\t\t\t\t\t\t\t---------------------About Us---------------------\n");
+	 printf("\t\t\t\t\t\t\t\t\t\t\t\t\t-We are always here to serve you\n\n");
 	 printf("----------Our story----------\n");
 	 printf("Our system is specially made for resident students of Daffodil International University who live in Ashuliya.\nIn our university, a large number of students come from far away.They stay in the hall or live on rent nearby.\nMany of them eat at different restaurants daily.\nWhile having food they face some challenges regularly such as consuming unhealthy foods, having a poor diet, safety issues for females, and unreasonable costs.\n\t-These thoughts led us to create a homemade food delivery service named 'LOST KITCHEN'.\n\tIt will bring back the taste, which they used to get from the kitchen of their home right next to their doorsteps within a few clicks.\n\n");
 	 printf("----------Our Mission----------\n");
@@ -17,8 +18,6 @@ int main(){
 	  scanf("%d",&opt_1);
 	 if (opt_1==1)
 	  home_page(); //recalling home_page (code-page00) func 
-   if (opt_1==0)
-    return 0;
 	*/
 	
 	return 0;

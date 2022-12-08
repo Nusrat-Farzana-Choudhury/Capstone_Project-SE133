@@ -39,9 +39,12 @@ int Bill_show(int arID[],int arqty[],int counter)
 	    discount=30;
     	sum2=sum-discount;
 	}*/
+	
+	/*An unique Order ID should be generated under time.h function*/
+	
     printf("\n\n\n\n\t\t\t\t\t\t\t  Total = %d\n\n\n\n",sum);
     
-    printf("Billing address (in Ashuliya)\t:\n");
+    printf("Billing info (in Ashuliya)\t:\n");
     //printf("Name\t:%s\nAddress\t:%s\nPhone\t:%s",name,address,contact);
     printf("Payment method\t\t\t: COD\n\n");
     
@@ -134,9 +137,10 @@ int main()
     counter--;
     system("cls");
     system("color 90");
-    printf("\nEnter your adddress\t\t\t\t: ");
-    gets(address); //Error: gets() not working here
-    printf("\nEnter your contact no. for confirmation\t\t: ");
+    printf("\nEnter your adddress (In Ashuliya)\t\t: ");
+    getchar();
+    gets(address); 
+    printf("Enter your contact no. for confirmation\t\t: ");
     gets(contact);
     
     system("cls");

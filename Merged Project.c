@@ -3,9 +3,7 @@
 
   ---Submitted by---
   Nusrat Farzana Choudhury (221-35-990) 
-                &
-  Mashruba Sultana Zerin (221-35-885)
-  
+               
   Section: B
   Batch : 37
   ---------------------------------------*/
